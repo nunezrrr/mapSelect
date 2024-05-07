@@ -123,6 +123,12 @@ body {
     width: 275px;
     height: 64px;
 }
+#slctSunset {
+    background-image: url("images//ban_sunset.png");
+    background-size: cover;
+    width: 275px;
+    height: 64px;
+}
 
 .pnbs {
     justify-content: center;
