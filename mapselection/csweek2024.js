@@ -21,10 +21,16 @@ function addMap(map) {
     if (mapBans.includes(map)) {
         return;
     }
-    else if (counter < 4) {
+    else if (counter < 2) {
         addBan(map);
     }
-    else if (counter < 7) {
+    else if (counter < 4) {
+        addPick(map);
+    }
+    else if (counter < 6) {
+        addBan(map);
+    }
+    else {
         addPick(map);
     }
 }
